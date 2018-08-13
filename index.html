@@ -11,16 +11,22 @@
             .btndents{
                 display:none;
             }
-        }
-        .imgbase{
-            position: relative;
-            width:350px;
-            height:447px;
-            background-color: white;
-        }
+            }
+            .imgbase{
+                position: relative;
+                width:350px;
+                height:447px;
+                background-color: white;
+            }
     </style>
 </head>
 <body>
+        <table style="width:99%;border-collapse: collapse">
+                <tr>
+                    <td style="width:70%;border: 1px solid black; padding:40px">NOM: <input type="text" name="FirstName" value="Mickey" size="140" height="40px"></td>
+                    <td style="border: 1px solid black; padding:40px"></td>
+                </tr>
+            </table>
     <div class="w3-display-container w3-white" style="height:500px;">
     <div class="w3-display-topmiddle w3-padding">
         <div class="imgbase">
@@ -90,6 +96,12 @@
         </div>
     </div>
 </div>
+<table style="width:99%;border-collapse: collapse">
+        <tr>
+            <td style="width:70%;height:350px;border: 1px solid black;padding-left:40px;padding-top:15px;"></td>
+            <td style="border: 1px solid black; padding:15px"></td>
+        </tr>
+</table>
     <script>
         function fnctoggle( xx ){
             if (xx.style.display === "none") {
